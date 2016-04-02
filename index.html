@@ -8,29 +8,36 @@
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-	<h1 id="title">Flappy Bird</h1>
-	<div id="birds">
-		<ul id="birdIcons">
-			<li class="birds" id="ghostBird"><img src="" alt="ghost character"></li>
-			<li class="birds" id="redBird"><img src="" alt="red bird"></li>
-			<li class="birds" id="yellowBird"><img src="" alt="yellow bird"></li>
-		</ul>
-	</div>
-	<div id="social">
-		<ul id="social-ul">
-			<li class="social" id="twitter">
-				<a href="https://twitter.com/dongatory?lang=en" target="_blank"><i class="fa fa-github" alt="Twitter"></i></a>
-			</li>
-			<li class="social" id="github">
-				<a href="https://github.com/elmeltone/flappybird" target="_blank"><i class="fa fa-github" alt="Github"></i></a>
-			</li>
-			<li class="social" id="facebook">
-				<a href="https://www.facebook.com/app.flappy.bird/" target="_blank"><i class="fa fa-facebook" alt="Facebook"></i></a>
-			</li>
-		</ul>
-	</div>
-	
-	
+	<header>
+		<h1 id="title">Flappy Bird</h1>
+		<p id="instructions">Tap the screen to help Flappy Bird fly!</p>
+	</header>
+	<section id="main">
+		<div id="birds">
+			<ul id="birdIcons">
+				<li class="birds" id="ghostBird"><img src="" alt="ghost character"></li>
+				<li class="birds" id="redBird"><img src="" alt="red bird"></li>
+				<li class="birds" id="yellowBird"><img src="" alt="yellow bird"></li>
+			</ul>
+		</div>
+		<div id="social">
+			<ul id="social-ul">
+				<li class="social" id="twitter">
+					<a href="https://twitter.com/dongatory?lang=en" target="_blank"><i class="fa fa-twitter" alt="Twitter"></i></a>
+				</li>
+				<li class="social" id="github">
+					<a href="https://github.com/elmeltone/flappybird" target="_blank"><i class="fa fa-github" alt="Github"></i></a>
+				</li>
+				<li class="social" id="facebook">
+					<a href="https://www.facebook.com/app.flappy.bird/" target="_blank"><i class="fa fa-facebook" alt="Facebook"></i></a>
+				</li>
+			</ul>
+		</div>
+		<button id="play">PLAY</button>
+	</section>
+	<footer>
+		<img src="images/MJM.png" alt="initials" id="initials">
+	</footer>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
