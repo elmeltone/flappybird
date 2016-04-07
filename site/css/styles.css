@@ -1,9 +1,34 @@
+html {
+  background-color: lightblue; }
+
 body {
   text-align: center;
-  background-color: lightblue; }
+  background-image: url("http://i.imgur.com/ZMp4wUe.png");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Erica One', cursive; }
+
+a:link, a:visited {
+  color: darkgreen; }
+
+a:hover {
+  cursor: pointer; }
 
 #title, #instructions {
   text-align: center; }
+
+#title {
+  font-size: 44px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: white;
+  -webkit-text-stroke: 3px darkgreen;
+  text-shadow: 3px 3px 3px darkgreen; }
+
+#instructions {
+  font-size: 18px;
+  color: darkgreen;
+  margin-top: 0; }
 
 ul {
   list-style-type: none;
@@ -13,6 +38,9 @@ ul {
     float: left;
     margin: 0.5em; }
 
+#main {
+  padding-bottom: 0; }
+
 .birds {
   width: 5em; }
 
@@ -21,6 +49,21 @@ ul {
 
 #redBird {
   padding-top: -20px; }
+
+#play {
+  width: 40%;
+  vertical-align: middle;
+  border-radius: 8px;
+  background-color: darkgreen;
+  color: white;
+  font-size: 28px; }
+
+#social-ul {
+  margin-top: 2rem; }
+
+#social-ul, #social-ul li {
+  margin-bottom: 0;
+  padding-bottom: 0; }
 
 #initials {
   width: 1em;
