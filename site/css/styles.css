@@ -28,7 +28,8 @@ a:hover {
 #instructions {
   font-size: 18px;
   color: darkgreen;
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 3rem; }
 
 ul {
   list-style-type: none;
@@ -42,13 +43,19 @@ ul {
   padding-bottom: 0; }
 
 .birds {
-  width: 5em; }
+  width: 100%;
+  float: left; }
 
 #orangeBird {
-  padding-top: -10px; }
+  width: 33%;
+  margin-top: -1rem; }
 
 #redBird {
-  padding-top: -20px; }
+  width: 33%;
+  margin-top: -2rem; }
+
+#yellowBird {
+  width: 33%; }
 
 #play {
   width: 40%;
