@@ -2,8 +2,59 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="refresh" content="0; url=http://repo.github.io/site/index.html" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Flappy Bird Clone Landing Page</title>
+	<meta name="description" content="Flappy Bird game landing page">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="site/img/birdIcon.png">
+	<link rel="apple-touch-icon" href="site/img/birdIcon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" />
+	<link rel="stylesheet" href="site/css/font-awesome.min.css">
+	<link rel="stylesheet" href="site/css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Erica+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<header>
+		<p id="title">FlappyBird</p>
+		<p id="instructions">Tap the screen to help FlappyBird fly!</p>
+	</header>
+	<section id="main">
+		<div id="birds">
+			<div class="birds" id="orangeBird"><img src="site/img/orangeBird.png" alt="orange bird"></div>
+			<div class="birds" id="redBird"><img src="site/img/redBird.png" alt="red bird"></div>
+			<div class="birds" id="yellowBird"><img src="site/img/yellowBird.png" alt="yellow bird"></div>
+		</div>
+		<button id="play">PLAY!</button>
+		<div id="social">
+			<ul id="social-ul">
+				<li class="social" id="twitter">
+					<a href="https://twitter.com/share?url=http://elmeltone.github.io/flappybird&amp;text=FlappyBird%20fun!&amp;hashtags=FlappyBird, Thinkful, FrontEnd, project" target="_blank"><i class="fa fa-twitter" alt="Twitter"></i></a>
+				</li>
+				<li class="social" id="google">
+					<a href="https://plus.google.com/share?url=http://elmeltone.github.io/flappybird" target="_blank"><i class="fa fa-google-plus" alt="google"></i></a>
+				</li>
+				<li class="social" id="facebook">
+					<a href="https://www.facebook.com/sharer.php?u=http://elmeltone.github.io/flappybird" target="_blank"><i class="fa fa-facebook" alt="Facebook"></i></a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<img src="site/img/MJM.png" alt="initials" id="initials">
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="site/app.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75989563-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 </body>
 </html>
