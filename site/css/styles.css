@@ -18,7 +18,7 @@ a:hover {
   text-align: center; }
 
 #title {
-  font-size: 44px;
+  font-size: 48px;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   color: white;
@@ -44,26 +44,50 @@ ul {
 
 .birds {
   width: 100%;
-  float: left; }
+  float: left;
+  height: 6rem;
+  max-height: 500px; }
 
 #orangeBird {
   width: 33%;
-  margin-top: -1rem; }
+  margin-top: 0;
+  animation-name: orangefly;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  overflow: visible; }
 
 #redBird {
   width: 33%;
-  margin-top: -2rem; }
+  margin-top: 0;
+  animation-name: redfly;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  overflow: visible; }
 
 #yellowBird {
-  width: 33%; }
+  width: 33%;
+  margin-top: 0;
+  animation-name: yellowfly;
+  animation-duration: 3s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  overflow: visible; }
 
 #play {
-  width: 40%;
   vertical-align: middle;
-  border-radius: 8px;
+  border-radius: 18px;
   background-color: darkgreen;
   color: white;
-  font-size: 28px; }
+  font-size: 36px;
+  border: 0;
+  position: static; }
 
 #social-ul {
   margin-top: 2rem; }
@@ -76,3 +100,28 @@ ul {
   width: 1em;
   margin-left: auto;
   margin-right: auto; }
+
+/* Animation */
+@keyframes orangefly {
+  from {
+    margin-top: 0;
+    margin-bottom: 0; }
+  to {
+    margin-top: -2rem;
+    margin-bottom: 2rem; } }
+
+@keyframes redfly {
+  from {
+    margin-top: 0;
+    margin-bottom: 0; }
+  to {
+    margin-top: -2rem;
+    margin-bottom: 2rem; } }
+
+@keyframes yellowfly {
+  from {
+    margin-top: 0;
+    margin-bottom: 0; }
+  to {
+    margin-top: -2rem;
+    margin-bottom: 2rem; } }
