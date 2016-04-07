@@ -2,12 +2,17 @@ $sky-color: lightblue;
 $dark-color: darkgreen;
 $light-type-color: white;
 
+$tall: 'min-height: 550px';
+$wide: 'min-width: 750px';
+
 html {
 	background-color: $sky-color;
 }
 body {
 	text-align: center;
 	background-image: url("http://i.imgur.com/ZMp4wUe.png");
+	background-size: cover;
+	background-position: center top;
 	font-family: 'Erica One', cursive;
 }
 
