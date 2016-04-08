@@ -1,5 +1,6 @@
 $sky-color: lightblue;
-$dark-color: darkgreen;
+$light-color: #699864;
+$dark-color: #006400;
 $light-type-color: white;
 
 $wide: 'min-width: 701px';
@@ -111,7 +112,7 @@ ul {
 #play {
 	vertical-align: middle;
 	border-radius: 18px;
-	background-color: $dark-color;
+	background-color: $light-color;
 	color: $light-type-color;
 	font-size: 36px;
 	border: 0;

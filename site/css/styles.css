@@ -1,5 +1,5 @@
 a:link, a:visited {
-  color: darkgreen; }
+  color: #006400; }
 
 a:hover {
   cursor: pointer; }
@@ -15,8 +15,8 @@ button:focus {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   color: white;
-  -webkit-text-stroke: 3px darkgreen;
-  text-shadow: 3px 3px 3px darkgreen; }
+  -webkit-text-stroke: 3px #006400;
+  text-shadow: 3px 3px 3px #006400; }
   @media screen and (min-width: 701px) {
     #title {
       font-size: 88px;
@@ -28,7 +28,7 @@ button:focus {
 
 #instructions {
   font-size: 18px;
-  color: darkgreen;
+  color: #006400;
   margin-top: 0;
   margin-bottom: 3rem; }
   @media screen and (min-width: 701px) {
@@ -91,7 +91,7 @@ ul {
 #play {
   vertical-align: middle;
   border-radius: 18px;
-  background-color: darkgreen;
+  background-color: #699864;
   color: white;
   font-size: 36px;
   border: 0;
