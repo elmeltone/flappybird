@@ -5,20 +5,6 @@ $light-type-color: white;
 $wide: 'min-width: 701px';
 $widest: 'min-width: 1601px';
 
-html {
-	background-color: $sky-color;
-}
-body {
-	text-align: center;
-	background-image: url("http://i.imgur.com/ZMp4wUe.png");
-	background-size: cover;
-	background-position: center top;
-	font-family: 'Erica One', cursive;
-	@media screen and ($wide) {
-		background-position: center;
-	}
-}
-
 a:link, a:visited {
 	color: $dark-color;
 }

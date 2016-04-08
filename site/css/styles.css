@@ -1,16 +1,3 @@
-html {
-  background-color: lightblue; }
-
-body {
-  text-align: center;
-  background-image: url("http://i.imgur.com/ZMp4wUe.png");
-  background-size: cover;
-  background-position: center top;
-  font-family: 'Erica One', cursive; }
-  @media screen and (min-width: 701px) {
-    body {
-      background-position: center; } }
-
 a:link, a:visited {
   color: darkgreen; }
 
