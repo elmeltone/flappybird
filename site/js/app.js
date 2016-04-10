@@ -3,7 +3,7 @@ $(function() {
 	//PLAY! button animation
 	$('#play').mouseenter(function(){
 		$(this)
-		.velocity({translateY:'-10px', backgroundColor:'#006400'}, 400);
+		.velocity({translateY:'-5px', backgroundColor:'#006400'}, 400);
 	});
 	$('#play').mouseleave(function(){
 		$(this)
